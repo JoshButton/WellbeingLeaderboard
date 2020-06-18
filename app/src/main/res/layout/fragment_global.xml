@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/design_default_color_secondary_variant"
+             tools:context=".GlobalFragment">
+    <TextView
+            android:text="GLOBAL LEADERBOARD:"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:background="@color/design_default_color_secondary_variant"
+            android:paddingTop="10dp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:textSize="19dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="584dp"
+            android:layout_marginTop="40dp"
+            android:padding="4dp"
+            android:clipToPadding="false"
+            android:id="@+id/globalRecyclerView"
+            tools:listitem="@layout/leaderboard_layout"/>
+
+</FrameLayout>

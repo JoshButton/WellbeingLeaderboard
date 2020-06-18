@@ -1,0 +1,17 @@
+*.iml
+*.apk
+.gradle
+.navigation/
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+/app/build/generated/res/google-services/debug/values/values.xml
+google-services.json
